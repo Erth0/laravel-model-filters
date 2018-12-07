@@ -1,0 +1,29 @@
+<?php
+
+namespace App\Filters{{namespace}};
+
+use Mukja\LaravelFilters\FilterAbstract;
+use Illuminate\Database\Eloquent\Builder;
+
+class {{class}} extends FilterAbstract
+{
+    /**
+     * Define column mappings.
+     * @return array
+     */
+    public function mappings ()
+    {
+        return [];
+    }
+
+    /**
+     * Filter the column.
+     * @param  Builder $builder
+     * @param  mixed  $value
+     * @return Builder $builder
+     */
+    public function filter (Builder $builder, $value)
+    {
+        //
+    }
+}

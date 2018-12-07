@@ -1,0 +1,18 @@
+<?php
+
+namespace App\Filters{{namespace}};
+
+use Mukja\LaravelFilters\FiltersAbstract;
+
+class {{class}} extends FiltersAbstract
+{
+    /**
+     * Array of filters array key need to map the
+     * database column name and as value
+     * we pass the class name.
+     * @var array
+     */
+    protected $filters = [
+        //
+    ];
+}
