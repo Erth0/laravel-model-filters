@@ -15,5 +15,12 @@
         "psr-4": {
             "Mukja\\LaravelFilters\\": "src/"
         }
+    },
+    "extra": {
+    "laravel": {
+        "providers": [
+            "Mukja\\LaravelFilters\\LaravelFiltersServiceProvider"
+        ]
     }
+},
 }
