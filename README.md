@@ -162,6 +162,7 @@ If you discover any security related issues, please email [e.mukja@icloud.com](m
 ## Credits
 
 - [Eluert Mukja](https://github.com/Erth0)
+- [Codecourse](https://github.com/codecourse)
 
 ## License
 
