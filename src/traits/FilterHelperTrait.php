@@ -95,7 +95,7 @@ trait FilterHelperTrait
         return $this;
     }
 
-    protected function replaceNamespace (&$stub, $name)
+    protected function replaceNamespace(&$stub, $name)
     {
         $namespace = ucwords(camel_case($name));
         $namespace = $this->splitNamespace($namespace);

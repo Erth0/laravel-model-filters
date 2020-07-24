@@ -11,7 +11,7 @@ class {{class}} extends FilterAbstract
      * Define column mappings.
      * @return array
      */
-    public function mappings ()
+    public function mappings()
     {
         return [];
     }
@@ -22,7 +22,7 @@ class {{class}} extends FilterAbstract
      * @param  mixed  $value
      * @return Builder $builder
      */
-    public function filter (Builder $builder, $value)
+    public function filter(Builder $builder, $value)
     {
         //
     }
