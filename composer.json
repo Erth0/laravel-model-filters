@@ -1,0 +1,28 @@
+{
+    "name": "eth0/laravel-filters",
+    "description": "A clean laravel model filters where we can filter laravel models by passing query string into it.",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Erth0",
+            "email": "e.mukja@icloud.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "~7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mukja\\LaravelFilters\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mukja\\LaravelFilters\\LaravelFiltersServiceProvider"
+            ]
+        }
+    }
+}
