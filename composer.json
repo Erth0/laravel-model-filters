@@ -14,8 +14,9 @@
         "php": "~7.2"
     },
     "autoload": {
-        "psr-4": { "Mukja\\LaravelFilters\\": [ "src" ] },
-		"classmap": [ "src" ]
+        "psr-4": {
+            "Mukja\\LaravelFilters\\": "src/"
+        }
     },
     "extra": {
         "laravel": {
