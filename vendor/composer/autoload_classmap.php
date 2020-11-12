@@ -7,10 +7,4 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
-    'Mukja\\LaravelFilters\\Commands\\CreateNewFilterCommand' => $baseDir . '/src/Commands/CreateNewFilterCommand.php',
-    'Mukja\\LaravelFilters\\Commands\\CreateNewModelFilterCommand' => $baseDir . '/src/Commands/CreateNewModelFilterCommand.php',
-    'Mukja\\LaravelFilters\\FilterAbstract' => $baseDir . '/src/FilterAbstract.php',
-    'Mukja\\LaravelFilters\\FiltersAbstract' => $baseDir . '/src/FiltersAbstract.php',
-    'Mukja\\LaravelFilters\\LaravelFiltersServiceProvider' => $baseDir . '/src/LaravelFiltersServiceProvider.php',
-    'Mukja\\LaravelFilters\\Traits\\FilterHelperTrait' => $baseDir . '/src/Traits/FilterHelperTrait.php',
 );

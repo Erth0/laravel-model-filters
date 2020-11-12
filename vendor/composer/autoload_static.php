@@ -22,12 +22,6 @@ class ComposerStaticInitd2b29e15667291880573345788ce65cc
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'Mukja\\LaravelFilters\\Commands\\CreateNewFilterCommand' => __DIR__ . '/../..' . '/src/Commands/CreateNewFilterCommand.php',
-        'Mukja\\LaravelFilters\\Commands\\CreateNewModelFilterCommand' => __DIR__ . '/../..' . '/src/Commands/CreateNewModelFilterCommand.php',
-        'Mukja\\LaravelFilters\\FilterAbstract' => __DIR__ . '/../..' . '/src/FilterAbstract.php',
-        'Mukja\\LaravelFilters\\FiltersAbstract' => __DIR__ . '/../..' . '/src/FiltersAbstract.php',
-        'Mukja\\LaravelFilters\\LaravelFiltersServiceProvider' => __DIR__ . '/../..' . '/src/LaravelFiltersServiceProvider.php',
-        'Mukja\\LaravelFilters\\Traits\\FilterHelperTrait' => __DIR__ . '/../..' . '/src/Traits/FilterHelperTrait.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
