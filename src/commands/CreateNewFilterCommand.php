@@ -3,7 +3,6 @@
 namespace Mukja\LaravelFilters\Commands;
 
 use Illuminate\Console\Command;
-use Illuminate\Container\Container;
 use Illuminate\Filesystem\Filesystem;
 use Mukja\LaravelFilters\Traits\FilterHelperTrait;
 

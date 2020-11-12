@@ -3,7 +3,6 @@
 namespace Mukja\LaravelFilters\Commands;
 
 use Illuminate\Console\Command;
-use Illuminate\Container\Container;
 use Illuminate\Filesystem\Filesystem;
 use Mukja\LaravelFilters\Traits\FilterHelperTrait;
 
@@ -25,11 +24,11 @@ class CreateNewModelFilterCommand extends Command
      */
     protected $description = 'Create a new model filter.';
 
-     /**
-     * The filesystem instance.
-     *
-     * @var Filesystem
-     */
+    /**
+    * The filesystem instance.
+    *
+    * @var Filesystem
+    */
     protected $files;
 
     /**
