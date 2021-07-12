@@ -24,11 +24,11 @@ class CreateNewFilterCommand extends Command
      */
     protected $description = 'Create a new model filter.';
 
-     /**
-     * The filesystem instance.
-     *
-     * @var Filesystem
-     */
+    /**
+    * The filesystem instance.
+    *
+    * @var Filesystem
+    */
     protected $files;
 
     /**
